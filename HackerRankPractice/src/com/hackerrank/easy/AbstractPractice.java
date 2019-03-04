@@ -10,6 +10,9 @@ abstract class Book{
 }
 
 //Write MyBook class here
+class MyBook extends Book{
+    String title;
+    void setTitle(String s){
         super.title =s;
     }
 }
